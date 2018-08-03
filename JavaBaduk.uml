@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vbkRULcYEeeISYLuwxU9lQ" name="JavaBaduk">
+  <packagedElement xmi:type="uml:Package" xmi:id="_6okVQLcYEeeISYLuwxU9lQ" name="Board">
+    <packagedElement xmi:type="uml:Class" xmi:id="_8DpMILcYEeeISYLuwxU9lQ" name="DrawBoard">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bsjosLcbEeeISYLuwxU9lQ" name="baduktype" type="_BQJtQLcZEeeISYLuwxU9lQ" association="_bsZQoLcbEeeISYLuwxU9lQ">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bsohMLcbEeeISYLuwxU9lQ"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bsqWYLcbEeeISYLuwxU9lQ" value="1"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_DgdGgLcaEeeISYLuwxU9lQ" name="DrawBoard"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_F80bQLcaEeeISYLuwxU9lQ" name="setBoardSize">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JHMFgLcaEeeISYLuwxU9lQ" name="size"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Sn3KgLcaEeeISYLuwxU9lQ" name="getBoardSize"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_U9uOoLcaEeeISYLuwxU9lQ" name="createBoard"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_XPbykLcaEeeISYLuwxU9lQ" name="getContent"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZMQEkLcaEeeISYLuwxU9lQ" name="actionPerformed" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_dG1DwLcaEeeISYLuwxU9lQ" name="arg0"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_eYp4ALcaEeeISYLuwxU9lQ" name="getPath"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_fPW2gLcaEeeISYLuwxU9lQ" name="setPath" visibility="public">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_is24ILcaEeeISYLuwxU9lQ" name="path"/>
+      </ownedOperation>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_L_pV0LcZEeeISYLuwxU9lQ" name="x" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_NhAa4LcZEeeISYLuwxU9lQ" name="y" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_QrhPELcZEeeISYLuwxU9lQ" name="STD_19"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_SFi9ELcZEeeISYLuwxU9lQ" name="STD_13"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_T5cjoLcZEeeISYLuwxU9lQ" name="STD_9"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_Wd6EcLcZEeeISYLuwxU9lQ" name="ETC_17"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_YBpIELcZEeeISYLuwxU9lQ" name="ETC_15"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_ZpnLcLcZEeeISYLuwxU9lQ" name="ETC_11"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_bIPFkLcZEeeISYLuwxU9lQ" name="ETC_7"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_eh-BgLcZEeeISYLuwxU9lQ" name="ETC_4"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_gTis0LcZEeeISYLuwxU9lQ" name="dim" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_lB7ukLcZEeeISYLuwxU9lQ" name="size" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_neWtsLcZEeeISYLuwxU9lQ" name="btnBaduk" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_pcyJQLcZEeeISYLuwxU9lQ" name="baduk" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_vHGnwLcZEeeISYLuwxU9lQ" name="type" visibility="private">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_PLkp0LcaEeeISYLuwxU9lQ" name="BadukType"/>
+      </nestedClassifier>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_66Hi0LcZEeeISYLuwxU9lQ" name="contentBoard" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_AOltILcaEeeISYLuwxU9lQ" name="path" visibility="private"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_riT14LcaEeeISYLuwxU9lQ" name="Window">
+    <packagedElement xmi:type="uml:Class" xmi:id="_vYCxULcaEeeISYLuwxU9lQ" name="GUI">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_xDto8LcaEeeISYLuwxU9lQ" name="GUI"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_xrhP0LcaEeeISYLuwxU9lQ" name="main">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_9V2I8LcaEeeISYLuwxU9lQ" name="args"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_yaRzQLcaEeeISYLuwxU9lQ" name="initComponents"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Air4YLcbEeeISYLuwxU9lQ" name="createObjects"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_zPgyILcaEeeISYLuwxU9lQ" name="contentPane" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_zjjIcLcaEeeISYLuwxU9lQ" name="contentBoard" visibility="private"/>
+      <nestedClassifier xmi:type="uml:DataType" xmi:id="_zv4UQLcaEeeISYLuwxU9lQ" name="drawBoard" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_KF1CkLcbEeeISYLuwxU9lQ" client="_vYCxULcaEeeISYLuwxU9lQ" supplier="_8DpMILcYEeeISYLuwxU9lQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_bsZQoLcbEeeISYLuwxU9lQ" memberEnd="_bsjosLcbEeeISYLuwxU9lQ _bsrkgLcbEeeISYLuwxU9lQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bsewMLcbEeeISYLuwxU9lQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bsewMbcbEeeISYLuwxU9lQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_bsrkgLcbEeeISYLuwxU9lQ" name="type" type="_8DpMILcYEeeISYLuwxU9lQ" association="_bsZQoLcbEeeISYLuwxU9lQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_BQJtQLcZEeeISYLuwxU9lQ" name="BadukType">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_Gvzz4LcZEeeISYLuwxU9lQ" name="WHITE"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_H_Ax8LcZEeeISYLuwxU9lQ" name="BLACK"/>
+  </packagedElement>
+</uml:Model>
